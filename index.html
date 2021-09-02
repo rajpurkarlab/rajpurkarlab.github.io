@@ -1,9 +1,456 @@
-<!doctype html>
-<html>
-  <head>
-    <title>Rajpurkar Lab</title>
-  </head>
-  <body>
-    <p>Coming soon.</p>
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="./fontawesome-free-5.12.1-web/css/all.min.css" />
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="./sass/rl.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./style.css">
+
+    <title>Rajpurkar Lab | Medical AI at Harvard, DBMI</title>
+    <meta name="description"
+        content="The Rajpurkar Lab develops artificial intelligence technologies to improve medical decision making.">
+</head>
+
+<body id="body">
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-md navbar-light sticky-top py-2 light-shadow bg-white">
+        <div class="container">
+            <a href="./index.html" class="navbar-brand ff-sans fs-2 brand crimson">Rajpurkar Lab</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navmenu">
+                <!-- <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Research</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Work with Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Publications</a>
+                    </li>
+                </ul> -->
+            </div>
+        </div>
+
+    </nav>
+
+    <!-- hero -->
+    <section class="pt-5 pb-2">
+        <div class="container">
+            <div class="row align-items-center justify-content-between g-3">
+                <div class="col-sm p-3">
+                    <h1 style="text-align: center;" class="display-5 ff-sans">
+                        We
+                        build Artificial Intelligence
+                        for
+                        Medical Applications
+                    </h1>
+
+                    <p class="lead text-center p-sm-3">
+                        The Rajpurkar Lab has started up in the Department of Biomedical Informatics at Harvard Medical
+                        School.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- students/collaborators -->
+    <section class="">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg"></div>
+                <div class="col-lg">
+                    <ul class="list-group list-group-horizontal text-center">
+                        <li class="list-group-item flex-fill border-0">
+                            <a class="btn btn-outline-primary btn-lg" href="#students">
+                                Students
+                            </a>
+                        </li>
+
+                        <li class="list-group-item flex-fill border-0">
+                            <a class="btn btn-outline-primary btn-lg" href="#collaborators">Collaborators</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- research -->
+    <section class="p-3 mt-lg-5">
+        <div class="container">
+            <div class="row g-5">
+
+                <div class="col-lg">
+                    <div class="card mx-auto border-0 p-2" style="background-color: #BBF8FF
+                        ; border-radius: 0.25rem; height: 100%;">
+                        <h5 class="card-title ff-sans text-center p-3">Few-Shot Medical AI </h5>
+                        <img src="./svgs/undraw_developer_activity_bv83.svg" style="height: 12rem;" class="card-img-top"
+                            alt="...">
+                        <div class="card-body">
+                            <p class="card-text">We are dramatically expanding the scope of medical AI applications
+                                with
+                                novel self-supervision, multimodal, and transfer learning approaches.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg">
+                    <div class="card mx-auto border-0 p-2"
+                        style="background-color: #E0FF8C; border-radius: 0.25rem; height: 100%;">
+                        <h5 class="card-title ff-sans text-center p-3">Real-World Medical Data Curation</h5>
+                        <img src="./svgs/undraw_design_data_khdb.svg" style="height: 12rem;" class="card-img-top"
+                            alt="...">
+                        <div class="card-body">
+                            <p class="card-text"> We are partnering with hospitals worldwide to transform the basis for
+                                AI development from simplistic, homogenous datasets to real-world, heterogeneous
+                                datasets.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg">
+                    <div class="card mx-auto border-0 p-2"
+                        style="background-color: #FFEFAF; border-radius: 0.25rem; height: 100%;">
+                        <h5 class="card-title ff-sans text-center p-3">Medical AI Deployment</h5>
+                        <img src="./svgs/undraw_medical_research_qg4d.svg" style="height: 12rem;" class="card-img-top"
+                            alt="...">
+                        <div class="card-body">
+                            <p class="card-text"> We are collaborating with clinicians to implement medical AI in
+                                clinical workflows, improving downstream impact on decision making and clinical
+                                outcomes.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Welcome -->
+    <section class="p-3 my-5">
+        <!-- header -->
+        <div class="container gradient-grey rounded">
+            <div class="row align-items-center justify-content-between text-center">
+                <div class="col-lg">
+                    <h1 class="ff-sans display-6 p-5">
+                        Welcome
+                    </h1>
+                </div>
+            </div>
+
+            <!-- content -->
+            <div class="row">
+
+                <!-- welcome photo -->
+                <div class="col-lg-4">
+                    <img src="./images/headshots/PranavRajpurkar.jpg" alt="pranav"
+                        class="img-fluid w-50 d-block mx-auto rounded-circle p-1 mb-5">
+                </div>
+
+                <!-- welcome desc -->
+                <div class="col-lg-8">
+                    <p class="text-muted p-1 fs-11">
+                        Greetings! We are a new lab at Harvard DBMI. We work on building reliable AI technologies for
+                        medical decision making. We have developed deep learning algorithms that can read medical images
+                        at the level of experts, we have built large-scale open medical datasets, and we have
+                        demonstrated the positive and negative effects of AI on medical decision making.
+                    </p>
+                    <p class="text-muted p-1 fs-11">
+                        What will it take to make medical AI part of routine clinical care? We believe that algorithm
+                        development for limited labeled data settings, real-world dataset curation at scale, and the
+                        design of effective clinical deployment setups are critical directions. I welcome you to join us
+                        in our mission.
+                    </p>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Students -->
+    <section id="students" class="p-3 my-lg-5">
+        <!-- header -->
+        <div class="container gradient-blue rounded">
+            <div class="row align-items-center justify-content-between text-center">
+                <div class="col-lg">
+                    <h1 class="ff-sans display-6 p-4">
+                        Students
+                    </h1>
+                </div>
+            </div>
+
+            <!-- content -->
+            <div class="row">
+                <!-- students desc -->
+                <div class="col-sm-7 fs-11">
+
+                    <p class="text-muted my-3 mt-sm-2 mt-lg-3 px-2">
+
+                        We welcome undergraduate, graduate, and post-doctoral students and research volunteers with a
+                        background in any one of artificial intelligence, software engineering, or medicine. By working
+                        with our lab, you will build solutions to important problems in medicine. You will learn and
+                        sharpen cutting-edge AI through your research, your peers, and reading groups. You will work
+                        together in small teams with other scientists, engineers, and clinicians, and receive mentorship
+                        to co-author a research paper.
+
+                    </p>
+
+                    <p class="text-muted px-2">
+                        We expect that students will be able to commit at least 20 hours per week to research and be
+                        able to commit at least 6 months of research with the lab.
+                    </p>
+
+                    <p class="text-muted px-2">
+                        If you are interested in applying, send an email to
+
+                        <span class="fw-bolder">
+                            <a href="" class="text-decoration-none">pranav_rajpurkar@hms.harvard.edu</a>
+
+                        </span>
+                        with the following information. If you are a Harvard undergraduate or graduate student, please use the
+                        subject line “Harvard Applicant”. If you are interested in applying to the Rajpurkar lab as a
+                        volunteer researcher, visiting scholar, or postdoc, please send an email with the subject line
+                        “______ Applicant” (ie, “Postdoc Applicant”).
+                    </p>
+                </div>
+                <!-- students photos -->
+                <div class="col-sm-5">
+
+                    <div class="row">
+                        <div class="col-lg-1"></div>
+
+                        <div class="col-lg d-flex align-items-center justify-content-center mt-3">
+                            <div class="card border-0 bg-transparent my-2">
+                                <img src="./images/headshots/EkinTiu.jpg"
+                                    class="card-img-top img-fluid d-block mx-auto rounded-circle p-1 w-75" alt="...">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Ekin Tiu</h5>
+                                    <p class="card-subtitle mb-2 text-muted">Visiting Undergraduate
+                                    </p>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg d-flex align-items-center justify-content-center">
+                            <div class="card border-0 bg-transparent my-2">
+                                <img src="./images/headshots/EllieTalius.jpg"
+                                    class="card-img-top img-fluid d-block mx-auto rounded-circle p-1 w-75" alt="...">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Ellie Talius</h5>
+                                    <p class="card-subtitle mb-2 text-muted">Visiting Undergraduate
+                                    </p>
+
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+
+                        <div class="col-lg-1"></div>
+                    </div>
+
+                    <div class="row">
+
+                        <div class="col-lg-1"></div>
+
+                        <div class="col-lg d-flex align-items-center justify-content-center">
+                            <div class="card border-0 bg-transparent my-2">
+                                <img src="./images/headshots/PujanPatel.jpg"
+                                    class="card-img-top img-fluid d-block mx-auto rounded-circle p-1 w-75" alt="...">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Pujan Patel</h5>
+                                    <p class="card-subtitle mb-2 text-muted">Visiting Undergraduate
+                                    </p>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg d-flex align-items-center justify-content-center">
+                            <div class="card border-0 bg-transparent my-2">
+                                <img src="./images/headshots/placeholder.png"
+                                    class="card-img-top img-fluid d-block mx-auto rounded-circle p-1 w-75" alt="...">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Join Us</h5>
+                                    <p class="card-subtitle mb-2 text-muted">We welcome you!</p>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-1"></div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Collaborators -->
+    <section id="collaborators" class="p-3 my-5">
+
+        <div class="container gradient-green rounded-3">
+            <!-- header -->
+            <div class="row align-items-center justify-content-between text-center p-4 p-sm-5 p-lg-4">
+                <div class="col-lg">
+                    <h1 class="ff-sans display-6">
+                        Collaborators
+                    </h1>
+                </div>
+            </div>
+
+            <!-- content -->
+            <div class="row fs-11">
+                <div class="col-lg-4">
+
+                    <img class="img-fluid w-75 d-block mx-auto" src="./svgs/collaboration-green.svg" alt="students">
+
+                </div>
+
+                <div class="col-lg-8">
+
+                    <p class="text-muted mt-3 p-1 px-lg-5">
+                        We cultivate collaborations with academic institutions, hospitals and industry. We are currently
+                        interested in collaborating to develop, validate, and deploy medical imaging AI models. If you
+                        are interested in a possible collaboration with the Rajpurkar lab, please write to
+
+                        <span class="fw-bolder">
+                            <a href="" class="text-decoration-none">
+                                pranav_rajpurkar@hms.harvard.edu
+                            </a>
+                        </span>
+
+                        and
+                        CC
+                        <span class="fw-bolder">
+                            <a href="" class="text-decoration-none">
+                                kristen_oconnor@hms.harvard.edu
+                            </a>
+                        </span>
+
+
+                        with the subject line
+
+                        “Possible Research Collaboration”.
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- sign up mailchimp -->
+    <section class="px-2 py-5 mt-5 gradient-sign-up">
+        <div id="mc_embed_signup" class="container">
+            <div class="row align-items-center justify-content-between text-center" style="color: white;">
+                <div class="col-lg">
+                    <h1 class="ff-sans display-6 mt-lg-5">
+                        Stay informed of what we’re doing
+                    </h1>
+                </div>
+            </div>
+
+            <div class="row text-center mt-sm-4 p-sm-3 mt-md-0">
+                <form
+                    action="https://gmail.us5.list-manage.com/subscribe/post?u=557cb0dc8576a0294e638af4a&amp;id=55b81a021e"
+                    method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate"
+                    target="_blank" novalidate>
+                    <div id="mc_embed_signup_scroll" class="row mb-3">
+
+                        <div id="mce-responses" class="clear">
+                            <div class="response alert alert-danger w-50 mx-auto my-1" id="mce-error-response"
+                                style="display:none">
+                            </div>
+                            <div class="response alert alert-success w-50 mx-auto my-1" id="mce-success-response"
+                                style="display:none">
+                            </div>
+                        </div>
+
+
+                        <div class="col-12 col-sm-10 col-md-8 col-lg-4 mx-auto py-4">
+                            <!-- <label for="mce-EMAIL">Email Address </label> -->
+                            <input type="email" value="" name="EMAIL" class="required email form-control" id="mce-EMAIL"
+                                placeholder="Email">
+                        </div>
+
+                        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text"
+                                name="b_557cb0dc8576a0294e638af4a_55b81a021e" tabindex="-1" value=""></div>
+                        <div class="clear"><input type="submit" value="Subscribe" name="subscribe"
+                                id="mc-embedded-subscribe" class="btn btn-outline-info btn-lg">
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <section class="p-1" style="background-color: black">
+        <div class="container">
+            <footer class="pt-3 d-flex align-item-center justify-content-between">
+                <p class="text-center" style="color: white">© Rajpurkar Lab</p>
+                <p>
+                    <a href="#body" class="text-decoration-none">Top</a>
+                </p>
+            </footer>
+        </div>
+    </section>
+
+
+
+
+    <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+    <script type='text/javascript'>
+        (function ($) {
+            window.fnames = new Array();
+            window.ftypes = new Array();
+            fnames[0] = 'EMAIL';
+            ftypes[0] = 'email';
+            fnames[1] = 'FNAME';
+            ftypes[1] = 'text';
+            fnames[2] = 'LNAME';
+            ftypes[2] = 'text';
+            fnames[3] = 'ADDRESS';
+            ftypes[3] = 'address';
+            fnames[4] = 'PHONE';
+            ftypes[4] = 'phone';
+            fnames[5] = 'BIRTHDAY';
+            ftypes[5] = 'birthday';
+        }(jQuery));
+        var $mcj = jQuery.noConflict(true);
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+</body>
+
 </html>
