@@ -7,87 +7,70 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./sass/rl.css">
     <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
     <title>Rajpurkar Lab | Medical AI at Harvard, DBMI</title>
     <meta name="description"
         content="The Rajpurkar Lab develops artificial intelligence technologies to improve medical decision making.">
 </head>
 
-<body id="body">
+<body>
     <!-- navbar -->
-    <nav class="navbar navbar-expand-md navbar-light sticky-top py-2 light-shadow bg-white">
+    <!-- <nav class="navbar navbar-expand-md navbar-light sticky-top py-2 light-shadow bg-white"> -->
+    <nav class="navbar navbar-light sticky-top py-2 light-shadow bg-white">
         <div class="container">
-            <a href="./index.html" class="navbar-brand ff-sans fs-2 brand crimson">Rajpurkar Lab</a>
-
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navmenu">
-                <!-- <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">Research</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">Work with Us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">Publications</a>
-                    </li>
-                </ul> -->
-            </div>
+            <a href="./index.html" class="navbar-brand ff-sans fs-3 brand crimson">Rajpurkar Lab</a>
+            <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu"> -->
+            <!--     <span class="navbar-toggler-icon"></span> -->
+            <!-- </button> -->
+            <!-- <div class="collapse navbar-collapse" id="navmenu"> -->
+            <!--     <ul class="navbar-nav ms-auto"> -->
+            <!--         <li class="nav-item"> -->
+            <!--             <a href="#" class="nav-link">Home</a> -->
+            <!--         </li> -->
+            <!--         <li class="nav-item"> -->
+            <!--             <a href="#" class="nav-link">Research</a> -->
+            <!--         </li> -->
+            <!--         <li class="nav-item"> -->
+            <!--             <a href="#" class="nav-link">Work with Us</a> -->
+            <!--         </li> -->
+            <!--         <li class="nav-item"> -->
+            <!--             <a href="#" class="nav-link">Publications</a> -->
+            <!--         </li> -->
+            <!--     </ul> -->
+            <!-- </div> -->
         </div>
-
     </nav>
 
     <!-- hero -->
-    <section class="pt-5">
+    <section class="pt-5" id="hero">
         <div class="container">
             <div class="row align-items-center justify-content-between">
                 <div class="col-sm p-3">
-                    <h1 style="text-align: center;" class="display-5 ff-sans">
+                    <h1 class="display-5 ff-sans text-center">
                         We
                         build Artificial Intelligence
                         for
                         Medical Applications
                     </h1>
-
-                    <p class="lead text-center p-sm-3">
+                    <p class="text-center mt-2">
                         The Rajpurkar Lab has started up in the Department of Biomedical Informatics at Harvard Medical
                         School.
                     </p>
                 </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- students/collaborators -->
-    <section class="">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg"></div>
-                <div class="col-lg">
-                    <ul class="list-group list-group-horizontal text-center">
-                        <li class="list-group-item flex-fill border-0">
-                            <a class="btn btn-outline-primary btn-lg" href="#students">
+                    <ul class="list-group list-group-horizontal justify-content-center">
+                        <li class="list-group-item border-0">
+                            <a class="btn btn-outline-primary" href="#students">
                                 Students
                             </a>
                         </li>
 
-                        <li class="list-group-item flex-fill border-0">
-                            <a class="btn btn-outline-primary btn-lg" href="#collaborators">Collaborators</a>
+                        <li class="list-group-item border-0">
+                            <a class="btn btn-outline-primary" href="#collaborators">Collaborators</a>
                         </li>
                     </ul>
-                </div>
-                <div class="col-lg"></div>
             </div>
         </div>
-    </section>
-
-    <!-- research -->
-    <section>
         <div class="container p-5">
             <div class="row g-5">
 
@@ -156,19 +139,18 @@
                 <!-- welcome photo -->
                 <div class="col-lg-2 offset-lg-2">
                     <img src="./images/headshots/PranavRajpurkar.jpg" alt="pranav"
-                        class="img-fluid d-block mx-auto rounded-circle p-1 mb-5">
+                        class="img-fluid d-block mx-auto rounded-circle mb-4">
                 </div>
-
                 <!-- welcome desc -->
                 <div class="col-lg-6">
                     <p class="text-muted">
-                        Greetings! We are a new lab at Harvard DBMI. We work on building reliable AI technologies for
+                    Greetings! We are a new lab at Harvard DBMI led by <a class="text-decoration-none" href="//pranavrajpurkar.com">Prof. Pranav Rajpurkar</a>. We work on building reliable AI technologies for
                         medical decision making. We have developed deep learning algorithms that can read medical images
                         at the level of experts, we have built large-scale open medical datasets, and we have
                         demonstrated the positive and negative effects of AI on medical decision making.
                     </p>
                     <p class="text-muted">
-                    <mark>What will it take to make medical AI part of routine clinical care?</mark>
+                    What will it take to make medical AI part of routine clinical care?
                     We believe that algorithm
                         development for limited labeled data settings, real-world dataset curation at scale, and the
                         design of effective clinical deployment setups are critical directions. I welcome you to join us
@@ -311,9 +293,9 @@
         <div id="mc_embed_signup" class="container">
             <div class="row align-items-center justify-content-between text-center" style="color: white;">
                 <div class="col-lg">
-                    <h1 class="ff-sans display-6 mt-5">
-                        Stay informed of what we are doing
-                    </h1>
+                    <h2 class="ff-sans display-6 mt-5">
+                        Stay informed of our progress
+                    </h2>
                 </div>
             </div>
 
@@ -359,7 +341,7 @@
             <footer class="pt-3 d-flex align-item-center justify-content-between">
                 <p class="text-center" style="color: white">© Rajpurkar Lab</p>
                 <p>
-                    <a href="#body" class="text-decoration-none">Top</a>
+                    <a href="#hero" class="text-decoration-none">Back to Top</a>
                 </p>
             </footer>
         </div>
