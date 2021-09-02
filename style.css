@@ -88,7 +88,11 @@ Variables
   }
 
   .gradient-orange {
-    background-image: linear-gradient(#f77f00, white);
+    background-image: linear-gradient(#ffe5e5, 1%, white);
+  }
+
+  .gradient-violet {
+      background-image: linear-gradient(#ded7f9, 1%, white);
   }
 
   .gradient-green {
@@ -106,7 +110,7 @@ Variables
   
 
   .gradient-blue {
-    background-image: linear-gradient(#caf0f8, 1%, white);
+    background-image: linear-gradient(#cae7f8, 1%, white);
   }
 
   .gradient-sign-up {

@@ -17,7 +17,7 @@
 <body>
     <!-- navbar -->
     <!-- <nav class="navbar navbar-expand-md navbar-light sticky-top py-2 light-shadow bg-white"> -->
-    <nav class="navbar navbar-light sticky-top py-2 light-shadow bg-white">
+    <nav class="navbar navbar-light py-2 light-shadow bg-white">
         <div class="container">
             <a href="./index.html" class="navbar-brand ff-sans fs-3 brand crimson">Rajpurkar Lab</a>
             <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu"> -->
@@ -43,8 +43,8 @@
     </nav>
 
     <!-- hero -->
-    <section class="pt-5" id="hero">
-        <div class="container">
+    <section id="hero">
+        <div class="container py-5">
             <div class="row align-items-center justify-content-between">
                 <div class="col-sm p-3">
                     <h1 class="display-5 ff-sans text-center">
@@ -57,23 +57,20 @@
                         The Rajpurkar Lab has started up in the Department of Biomedical Informatics at Harvard Medical
                         School.
                     </p>
-                </div>
-                    <ul class="list-group list-group-horizontal justify-content-center">
-                        <li class="list-group-item border-0">
-                            <a class="btn btn-outline-primary" href="#students">
-                                Students
-                            </a>
-                        </li>
+                 </div>
+                <!--     <ul class="list-group list-group-horizontal justify-content-center"> -->
+                <!--         <li class="list-group-item border-0"> -->
+                <!--             <a class="btn btn-outline-primary" href="#students"> -->
+                <!--                 Students -->
+                <!--             </a> -->
+                <!--         </li> -->
 
-                        <li class="list-group-item border-0">
-                            <a class="btn btn-outline-primary" href="#collaborators">Collaborators</a>
-                        </li>
-                    </ul>
-            </div>
-        </div>
-        <div class="container p-5">
-            <div class="row g-5">
-
+                <!--         <li class="list-group-item border-0"> -->
+                <!--             <a class="btn btn-outline-primary" href="#collaborators">Collaborators</a> -->
+                <!--         </li> -->
+                <!--     </ul> -->
+            <!-- </div> -->
+            <div class="row py-2">
                 <div class="col-lg">
                     <div class="card mx-auto border-0 p-2" style="background-color: #BBF8FF
                         ; border-radius: 0.25rem; height: 100%;">
@@ -116,7 +113,6 @@
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
     </section>
@@ -124,7 +120,7 @@
     <!-- Welcome -->
     <section class="">
         <!-- header -->
-        <div class="container gradient-grey rounded p-4">
+        <div class="container gradient-orange rounded p-4">
             <div class="row align-items-center justify-content-between text-center">
                 <div class="col-lg">
                     <h1 class="ff-sans display-6 p-3">
@@ -144,7 +140,7 @@
                 <!-- welcome desc -->
                 <div class="col-lg-6">
                     <p class="text-muted">
-                    Greetings! We are a new lab at Harvard DBMI led by <a class="text-decoration-none" href="//pranavrajpurkar.com">Prof. Pranav Rajpurkar</a>. We work on building reliable AI technologies for
+                    Greetings! We are a new lab at Harvard DBMI led by <a class="text-decoration-none" target="_blank" href="//pranavrajpurkar.com">&#128279; Prof. Pranav Rajpurkar</a>. We work on building reliable AI technologies for
                         medical decision making. We have developed deep learning algorithms that can read medical images
                         at the level of experts, we have built large-scale open medical datasets, and we have
                         demonstrated the positive and negative effects of AI on medical decision making.
@@ -182,7 +178,7 @@
                     <p class="text-muted my-3 mt-sm-2 mt-lg-3 px-2">
                         We welcome undergraduate, graduate, and post-doctoral students and research volunteers with a
                         background in any one of artificial intelligence, software engineering, or medicine. By working
-                        with our lab, you will build solutions to important problems in medicine. You will learn and
+                        with our lab, you will <mark>build solutions to important problems in medicine</mark>. You will learn and
                         sharpen cutting-edge AI through your research, your peers, and reading groups. You will work
                         together in small teams with other scientists, engineers, and clinicians, and receive mentorship
                         to co-author a research paper.
@@ -257,7 +253,7 @@
 
     <!-- Collaborators -->
     <section id="collaborators">
-        <div class="container gradient-green rounded-3 p-5">
+        <div class="container gradient-violet rounded-3 p-5">
             <!-- header -->
             <div class="row align-items-center justify-content-between text-center">
                 <div class="col-lg">
@@ -275,11 +271,13 @@
                 <div class="col-md-7">
                     <p class="text-muted mt-3 p-1 px-lg-5">
                         We cultivate collaborations with academic institutions, hospitals and industry. We are currently
-                        interested in collaborating to develop, validate, and deploy medical imaging AI models. If you
+                        interested in collaborating to <mark>deploy medical imaging AI models</mark>. We are also partnering with hospitals
+                        and industry to create <mark>large multi-institutional imaging datasets</mark>. If you
                         are interested in a possible collaboration with the Rajpurkar lab, please write to
-                        <code>pranav_rajpurkar</code> and <code>kristen_oconnor</code> at <code>hms.harvard.edu</code>
+                        <code>pranav_rajpurkar</code> at <code>hms.harvard.edu</code> and <code>kristen_oconnor</code>
+                        at <code>hms.harvard.edu</code>
                         with the subject line
-                        “Possible Research Collaboration”.
+                        <i> Possible Research Collaboration</i>.
                     </p>
 
                 </div>
@@ -294,7 +292,7 @@
             <div class="row align-items-center justify-content-between text-center" style="color: white;">
                 <div class="col-lg">
                     <h2 class="ff-sans display-6 mt-5">
-                        Stay informed of our progress
+                        Follow our progress
                     </h2>
                 </div>
             </div>
@@ -315,8 +313,7 @@
                             </div>
                         </div>
 
-
-                        <div class="col-12 col-sm-10 col-md-8 col-lg-4 mx-auto py-4">
+                        <div class="col-12 col-sm-10 col-md-8 col-lg-4 mx-auto pb-4">
                             <!-- <label for="mce-EMAIL">Email Address </label> -->
                             <input type="email" value="" name="EMAIL" class="required email form-control" id="mce-EMAIL"
                                 placeholder="Email">
