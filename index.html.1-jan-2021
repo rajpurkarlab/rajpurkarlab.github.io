@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./sass/rl.css">
     <link rel="stylesheet" href="./style.css">
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
@@ -45,7 +45,7 @@
     <!-- <nav class="navbar navbar-expand-md navbar-light sticky-top py-2 light-shadow bg-white"> -->
     <nav class="navbar navbar-light bg-white">
         <div class="container">
-            <a href="./index.html" class="navbar-brand ff-sans brand crimson">Rajpurkar Lab</a>
+            <a href="./index.html" class="navbar-brand ff-sans fs-3 brand crimson">Rajpurkar Lab</a>
             <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu"> -->
             <!--     <span class="navbar-toggler-icon"></span> -->
             <!-- </button> -->
@@ -68,29 +68,46 @@
         </div>
     </nav>
 
-    <section id="banner" class="banner">
-        <div class=" container">
-            <div class="row">
-                <!-- hide on screens smaller than sm -->
-                <div class="d-none d-sm-block">
-                    <img src="./images/banners/banner-desktop.svg" alt="" class="img-fluid d-block mx-auto">
-                </div>
-                <!-- hide on sm and wider screens -->
-                <div class="d-sm-none">
-                    <img src="./images/banners/banner-mobile.svg" alt="" class="img-fluid d-block mx-auto">
-                </div>
-
+    <section id="banner">
+        <div class="row">
+            <div class="col">
+                <img src="./svgs/Banner.svg" alt="Banner">
             </div>
         </div>
     </section>
 
     <!-- hero -->
-    <section id="hero" class="lg-mt-4">
+    <section id="hero">
         <div class="container py-3">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-sm py-3">
+                    <h1 class="display-5 ff-sans text-center">
+                        We
+                        build Artificial Intelligence
+                        for
+                        Medical Applications
+                    </h1>
+                    <p class="text-center py-2">
+                        The Rajpurkar Lab has started up in the Department of Biomedical Informatics at Harvard Medical
+                        School.
+                    </p>
+                </div>
+                <!--     <ul class="list-group list-group-horizontal justify-content-center"> -->
+                <!--         <li class="list-group-item border-0"> -->
+                <!--             <a class="btn btn-outline-primary" href="#students"> -->
+                <!--                 Students -->
+                <!--             </a> -->
+                <!--         </li> -->
+
+                <!--         <li class="list-group-item border-0"> -->
+                <!--             <a class="btn btn-outline-primary" href="#collaborators">Collaborators</a> -->
+                <!--         </li> -->
+                <!--     </ul> -->
+            </div>
             <div class="row pb-5">
                 <div class="col-lg my-2">
-                    <div class="card mx-auto border-1 p-2" style="background-color: #FFF
-                        ; border-radius: 0.25rem; height: 100%; border-color: crimson">
+                    <div class="card mx-auto border-0 p-2" style="background-color: #BBF8FF
+                        ; border-radius: 0.25rem; height: 100%;">
                         <h5 class="card-title ff-sans text-center p-3">Label-Efficient Medical AI </h5>
                         <img src="./svgs/undraw_developer_activity_bv83.svg" style="height: 12rem;" class="card-img-top"
                             alt="...">
@@ -103,8 +120,8 @@
                     </div>
                 </div>
                 <div class="col-lg my-2">
-                    <div class="card mx-auto border-1 p-2"
-                        style="background-color: #fff; border-radius: 0.25rem; height: 100%; border-color: crimson;">
+                    <div class="card mx-auto border-0 p-2"
+                        style="background-color: #E0FF8C; border-radius: 0.25rem; height: 100%;">
                         <h5 class="card-title ff-sans text-center p-3">Real-World Medical Data Curation</h5>
                         <img src="./svgs/undraw_design_data_khdb.svg" style="height: 12rem;" class="card-img-top"
                             alt="...">
@@ -117,8 +134,8 @@
                     </div>
                 </div>
                 <div class="col-lg my-2">
-                    <div class="card mx-auto border-1 p-2"
-                        style="background-color: #fff; border-radius: 0.25rem; height: 100%; border-color: crimson;">
+                    <div class="card mx-auto border-0 p-2"
+                        style="background-color: #FFEFAF; border-radius: 0.25rem; height: 100%;">
                         <h5 class="card-title ff-sans text-center p-3">Medical AI Deployment</h5>
                         <img src="./svgs/undraw_medical_research_qg4d.svg" style="height: 12rem;" class="card-img-top"
                             alt="...">
