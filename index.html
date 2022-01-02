@@ -84,7 +84,7 @@
         </div>
     </section>
 
-    <!-- hero -->
+    <!-- hero 3 big buttons -->
     <section id="hero" class="lg-mt-4">
         <div class="container py-3">
             <div class="row pb-5">
@@ -95,9 +95,11 @@
                         <img src="./svgs/undraw_developer_activity_bv83.svg" style="height: 12rem;" class="card-img-top"
                             alt="...">
                         <div class="card-body">
-                            <p class="card-text">We are dramatically expanding the scope of medical AI applications
-                                with
-                                novel self-supervision, multimodal, and transfer learning approaches.
+                            <p class="card-text">Annotating data at scale is time consuming especially for medical data,
+                                and the scarcity of labeled data can limit the effectiveness of supervised learning. We
+                                are developing self-supervised approaches, in addition to multimodal learning and
+                                transfer learning approaches, that allow for high model performance with small amounts
+                                of labeled data.
                             </p>
                         </div>
                     </div>
@@ -105,13 +107,15 @@
                 <div class="col-lg my-2">
                     <div class="card mx-auto border-1 p-2"
                         style="background-color: #fff; border-radius: 0.25rem; height: 100%; border-color: crimson;">
-                        <h5 class="card-title ff-sans text-center p-3">Real-World Medical Data Curation</h5>
+                        <h5 class="card-title ff-sans text-center p-3">Clinician-AI Collaboration Design</h5>
                         <img src="./svgs/undraw_design_data_khdb.svg" style="height: 12rem;" class="card-img-top"
                             alt="...">
                         <div class="card-body">
-                            <p class="card-text"> We are partnering with hospitals worldwide to transform the basis for
-                                AI development from simplistic, homogenous datasets to real-world, heterogeneous
-                                datasets.
+                            <p class="card-text"> While AI technologies for clinical decision making are expected to be
+                                used in conjunction with clinical decision makers in practical scenarios, this setup is
+                                largely ignored in the design of these technologies. We are working on investigating how
+                                to optimize human-AI collaboration in the context of clinical workflows, and how we can
+                                identify and mitigate failures in deployment settings.
                             </p>
                         </div>
                     </div>
@@ -119,13 +123,15 @@
                 <div class="col-lg my-2">
                     <div class="card mx-auto border-1 p-2"
                         style="background-color: #fff; border-radius: 0.25rem; height: 100%; border-color: crimson;">
-                        <h5 class="card-title ff-sans text-center p-3">Medical AI Deployment</h5>
+                        <h5 class="card-title ff-sans text-center p-3">Open Benchmark Curation</h5>
                         <img src="./svgs/undraw_medical_research_qg4d.svg" style="height: 12rem;" class="card-img-top"
                             alt="...">
                         <div class="card-body">
-                            <p class="card-text"> We are collaborating with clinicians to implement medical AI in
-                                clinical workflows, improving downstream impact on decision making and clinical
-                                outcomes.
+                            <p class="card-text"> The validation of academically and commercially developed AI models
+                                has relied on private, non-standardized datasets that do not allow for a transparent
+                                assessment of their performance in the real world. We are developing open benchmarks to
+                                help the community transparently measure advancements in generalizability of algorithms
+                                to new geographies, patient populations, and clinical settings.
                             </p>
                         </div>
                     </div>
@@ -134,8 +140,47 @@
         </div>
     </section>
 
+    <!-- carousel -->
+    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="20000">
+                <img src="./images/carousels/carousel-desktop-sllde-1.svg" class="d-block w-100" alt="...">
+                <!-- <div class="carousel-caption d-none d-md-block">
+                    <h5>Chest X-Rays</h5>
+                    <p>We introduced the application of contrastive learning to chest x-rays
+                        (https://arxiv.org/pdf/2010.05352.pdf). We have since improved label-efficiency of contrastive
+                        learning approaches https://arxiv.org/abs/2102.10663 by leveraging patient metadata.</p>
+                </div> -->
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="./images/carousels/carousel-desktop-sllde-2.svg" class="d-block w-100" alt="...">
+                <!-- <div class="carousel-caption d-none d-md-block">
+                    <h5>Second slide label</h5>
+                    <p>Some representative placeholder content for the second slide.</p>
+                </div> -->
+            </div>
+            <div class="carousel-item">
+                <img src="./images/carousels/carousel-desktop-sllde-3.svg" class="d-block w-100" alt="...">
+                <!-- <div class="carousel-caption d-none d-md-block">
+                    <h5>Third slide label</h5>
+                    <p>Some representative placeholder content for the third slide.</p>
+                </div> -->
+            </div>
+        </div>
+    </div>
+
+
+
     <!-- Welcome -->
-    <section class="">
+    <section class="" style="margin-top: 8rem;">
         <!-- header -->
         <div class="container gradient-orange rounded p-5">
             <div class="row align-items-center justify-content-between text-center">
@@ -387,7 +432,7 @@
     </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
-        < /body>
+    </script>
+</body>
 
-        <
-        /html>
+</html>
