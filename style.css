@@ -46,6 +46,19 @@ Variables
     --desc-desktop-line-height: 1.8rem;
   }
 
+  #logo {
+    max-width: 400px;
+  }
+
+  .card {
+    height:100%;
+  }
+
+  #hero-svg {
+    max-height: 200px;
+    transform: scaleX(-1);
+  }
+
   .outline {
     outline: 5px solid salmon;
   }
@@ -56,7 +69,11 @@ Variables
   }
 
   .card-text {
-      text-align: center;
+      text-align: left;
+  }
+
+  .card-title{
+    margin-bottom: 0.1rem;
   }
 
   .ff-sans {
@@ -114,10 +131,7 @@ Variables
   }
 
   .gradient-sign-up {
-    background-color: #1a7f78;
-    background-image: linear-gradient(
-      120deg
-      ,#255b98,#1a7f78);
+    background-color: #a41d30;
   }
 
   .dark-shadow {

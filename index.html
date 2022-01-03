@@ -49,68 +49,69 @@
     </nav>
 
     <section id="banner" class="banner">
-        <div class=" container">
+        <div class="container">
             <div class="row">
-                <!-- hide on screens smaller than sm -->
-                <div class="d-none d-sm-block">
-                    <img src="./images/banners/banner-desktop.svg" alt="" class="img-fluid d-block mx-auto">
+                <img id="logo" class="img-fluid" src="./images/harvardlogos/harvard_dbmi.png">
+            </div>
+            <div class="row">
+                <div class="col-sm-7 py-3">
+                    <h1 class="ff-sans py-3">
+                        The Rajpurkar Lab builds Artificial Intelligence for Medical Applications 
+                    </h1>
+                    <h4>
+                        Our mission is to accelerate the translation of medical AI into the clinic
+                    </h4>
+                 </div>
+                <div class="col-sm-5 d-none d-md-block">
+                    <img id="hero-svg" class="img-fluid" src="./images/harvardlogos/hero_svg.svg">
                 </div>
-                <!-- hide on sm and wider screens -->
-                <div class="d-sm-none">
-                    <img src="./images/banners/banner-mobile.svg" alt="" class="img-fluid d-block mx-auto">
-                </div>
-
             </div>
         </div>
     </section>
 
     <!-- hero 3 big buttons -->
     <section id="hero" class="lg-mt-4">
-        <div class="container py-3">
+        <div class="container">
             <div class="row pb-5">
                 <div class="col-lg my-2">
-                    <div class="card mx-auto border-1 p-2" style="background-color: #FFF
-                        ; border-radius: 0.25rem; height: 100%; border-color: crimson">
+                    <div class="card mx-auto border-1 p-2">
                         <h5 class="card-title ff-sans text-center p-3">Label-Efficient Medical AI </h5>
-                        <img src="./svgs/undraw_developer_activity_bv83.svg" style="height: 12rem;" class="card-img-top"
+                        <img src="./images/harvardlogos/8znrpr.svg" style="height: 12rem;" class="card-img-top"
                             alt="...">
                         <div class="card-body">
                             <p class="card-text">Annotating data at scale is time consuming especially for medical data,
                                 and the scarcity of labeled data can limit the effectiveness of supervised learning. We
-                                are developing self-supervised approaches, in addition to multimodal learning and
-                                transfer learning approaches, that allow for high model performance with small amounts
+                                are developing <a href="https://arxiv.org/abs/2102.10663">self-supervised</a> <a href="https://arxiv.org/abs/2106.04452">learning</a> <a href="https://www.cell.com/patterns/fulltext/S2666-3899(21)00267-1#%20">approaches</a>, in addition to multimodal learning and
+                                <a href="https://www.nature.com/articles/s41598-020-61055-6">transfer</a> <a href="https://arxiv.org/abs/2101.06871">learning</a> approaches, that allow for high model performance with small amounts
                                 of labeled data.
                             </p>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg my-2">
-                    <div class="card mx-auto border-1 p-2"
-                        style="background-color: #fff; border-radius: 0.25rem; height: 100%; border-color: crimson;">
+                    <div class="card mx-auto border-1 p-2">
                         <h5 class="card-title ff-sans text-center p-3">Clinician-AI Collaboration Design</h5>
-                        <img src="./svgs/undraw_design_data_khdb.svg" style="height: 12rem;" class="card-img-top"
+                        <img src="./svgs/undraw_artificial_intelligence_re_enpp.svg" style="height: 12rem;" class="card-img-top"
                             alt="...">
                         <div class="card-body">
                             <p class="card-text"> While AI technologies for clinical decision making are expected to be
                                 used in conjunction with clinical decision makers in practical scenarios, this setup is
                                 largely ignored in the design of these technologies. We are working on investigating how
-                                to optimize human-AI collaboration in the context of clinical workflows, and how we can
-                                identify and mitigate failures in deployment settings.
+                                to optimize human-AI collaboration in the context of <a href="https://www.nature.com/articles/s41746-020-00322-2">clinical workflows</a> and <a href="https://www.medrxiv.org/content/10.1101/2021.02.28.21252634v1">deployment settings</a>.
                             </p>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg my-2">
-                    <div class="card mx-auto border-1 p-2"
-                        style="background-color: #fff; border-radius: 0.25rem; height: 100%; border-color: crimson;">
+                    <div class="card mx-auto border-1 p-2">
                         <h5 class="card-title ff-sans text-center p-3">Open Benchmark Curation</h5>
-                        <img src="./svgs/undraw_medical_research_qg4d.svg" style="height: 12rem;" class="card-img-top"
+                        <img src="./svgs/undraw_visual_data_re_mxxo.svg" style="height: 12rem;" class="card-img-top"
                             alt="...">
                         <div class="card-body">
                             <p class="card-text"> The validation of academically and commercially developed AI models
                                 has relied on private, non-standardized datasets that do not allow for a transparent
-                                assessment of their performance in the real world. We are developing open benchmarks to
-                                help the community transparently measure advancements in generalizability of algorithms
+                                assessment of their performance in the real world. We are developing <a href="https://arxiv.org/abs/2007.06199">open benchmarks</a> to
+                                help the community transparently measure advancements in <a href="https://arxiv.org/abs/2102.08660">generalizability</a> of algorithms
                                 to new geographies, patient populations, and clinical settings.
                             </p>
                         </div>
@@ -119,119 +120,103 @@
             </div>
         </div>
     </section>
-
-    <!-- carousel -->
-    <!-- <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel"
-        style="margin-top: 4rem;">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
-                aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
-                aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
-                aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="./images/carousels/carousel-desktop-sllde-1.svg" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-                <img src="./images/carousels/carousel-desktop-sllde-2.svg" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-                <img src="./images/carousels/carousel-desktop-sllde-3.svg" class="d-block w-100" alt="...">
-            </div>
-        </div>
-    </div> -->
-
-
-    <!-- 
-    <section id="twoDetailButtons" class="twoDetailButtons">
-        <div class=" container">
-            <div class="row">
-                hide on screens smaller than sm
-                <div class="d-none d-sm-block">
-                    <img src="./images/twoDetailButtons/TwoDetailButtons.svg" alt="" class="img-fluid d-block mx-auto">
-                </div>
-                hide on sm and wider screens -->
-    <!-- <div class="d-sm-none">
-                    <img src="./images/banners/banner-mobile.svg" alt="" class="img-fluid d-block mx-auto">
-                </div>
-
-            </div>
-        </div>
-    </section> -->
-
-
-
     <!-- Team -->
-    <section id="team">
+    <section id="team" class="lg-mt-4">
         <!-- header -->
-        <div class="container gradient-blue rounded p-5">
-            <div class="row align-items-center justify-content-between text-center">
-                <div class="col-lg">
-                    <h1 class="ff-sans display-6 p-2">
-                        Team
-                    </h1>
-                </div>
-            </div>
+        <div class="container pb-5">
             <!-- content -->
             <div class="row">
+<<<<<<< HEAD
                 <!-- students desc -->
                 <div class="col-sm-6 p-lg-5">
                     <p class="text-muted">
 
+=======
+                <h2 class="ff-sans display-5 my-3">
+                    Work with us
+                </h2>
+                <div class="col-lg-6">
+                    <p>
+                        We tackle important problems in medicine that require artificial intelligence solutions.
+                        We work in close collaboration with clinicians worldwide, and often partner with hospitals and companies alike.
+                        We work on problems across clinical domains including radiology, emergency medicine, and cardiology, and develop computer vision and natural language processing solutions.
+                        Please contact us at
+                        <code>rajpurkarlab-apply</code> at <code>hms.harvard.edu</code> if any of the open positions or calls for collaboration fit you.
+                    </p> 
+                    <h3>
+>>>>>>> 50de7c78cd35169193fe34f743cfe1b87209a775
                         Open Positions
-
+                    </h3>
+                    <p> We are looking for Harvard affiliates with a background in any one of
+                        AI, medicine, or web development to join our team. We expect that you will be able to commit 10-20 hours
+                        per week to research and be able to commit at least 6 months of research with the lab.    
+                        We also have open post-doctoral positions for those with a strong demonstrated background in AI and
+                        medical image interpretation.
                     </p>
-                    <p class="text-muted">
-                        By working with our lab, you will build solutions to important problems in medicine. You will
-                        learn and sharpen cutting-edge AI through your research, your peers, and reading groups. You
-                        will work together in small teams with other scientists, engineers, and clinicians, and receive
-                        mentorship to co-author a research paper. We expect that you will be able to commit 10-20 hours
-                        per week to research and be able to commit at least 6 months of research with the lab.
-
-                        If you are a Harvard undergraduate and graduate student with a background in any one of
-                        artificial intelligence, software engineering, or medicine, we host a 6-month program for you to
-                        get involved in cutting edge researchers called the Medical AI Bootcamp. You can also reach out
-                        directly to <code>rajpurkarlab-apply</code> at <code>hms.harvard.edu</code>.
-                        If you are a PhD student admitted into one of the Harvard PhD programs interested in rotating,
-                        please contact the PI.
-                        If you are interested in post-doctoral positions with a strong demonstrated background in AI and
-                        medical image interpretation, please contact the PI.
-
+                    <h3>Collaborate with us</h3>
+                    <p>
+                        We cultivate collaborations with academic institutions, hospitals and industry. We are currently
+                        interested in partnering with industry to deploy medical imaging AI models. We are also seeking partnerships
+                        with hospitals to create large multi-institutional imaging datasets.
                     </p>
                 </div>
+<<<<<<< HEAD
                 <!-- students photos -->
                 <div class="col-sm-6 p-lg-5">
+=======
+                <div class="col-lg">
+>>>>>>> 50de7c78cd35169193fe34f743cfe1b87209a775
                     <div class="row">
                         <div class="col-4 d-flex align-items-center justify-content-center">
                             <div class="card border-0 bg-transparent">
-                                <img src="./images/headshots/1.jpeg"
-                                    class="card-img-top img-fluid d-block mx-auto rounded-circle" alt="...">
+                                <img src="./images/headshots/PranavRajpurkar.jpg"
+                                    class="card-img-top d-block mx-auto rounded-circle" alt="...">
                                 <div class="card-body text-center">
-                                    <p class="card-title">Name Surname</p>
+                                    <p class="card-title">Pranav Rajpurkar</p>
+                                    <p class="card-subtitle text-muted">PI</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col d-flex align-items-center justify-content-center">
+                            <div class="card border-0 bg-transparent">
+                                <img src="./images/headshots/KristenOConnor.jpg"
+                                    class="card-img-top d-block mx-auto rounded-circle" alt="...">
+                                <div class="card-body text-center">
+                                    <p class="card-title">Kristen O'Connor</p>
+                                    <p class="card-subtitle text-muted">Lab Manager</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col d-flex align-items-center justify-content-center">
+                            <div class="card border-0 bg-transparent">
+                                <img src="./images/headshots/HenrikMarklund.jpg"
+                                    class="card-img-top d-block mx-auto rounded-circle" alt="...">
+                                <div class="card-body text-center">
+                                    <p class="card-title">Henrik Marklund</p>
                                     <!-- <p class="card-subtitle text-muted">Visiting Undergraduate</p> -->
                                 </div>
                             </div>
                         </div>
                         <div class="col-4 d-flex align-items-center justify-content-center">
                             <div class="card border-0 bg-transparent">
-                                <img src="./images/headshots/2.jpeg"
-                                    class="card-img-top img-fluid d-block mx-auto rounded-circle" alt="...">
+                                <img src="./images/headshots/AgustinaSaenz.jpg"
+                                    class="card-img-top d-block mx-auto rounded-circle" alt="...">
                                 <div class="card-body text-center">
-                                    <p class="card-title">Name Surname</p>
-                                    <!-- <p class="card-subtitle text-muted">Visiting Undergraduate -->
-                                    </p>
-
+                                    <p class="card-title">Agustina Saenz</p>
+                                    <!-- <p class="card-subtitle text-muted">Visiting Undergraduate</p> -->
                                 </div>
                             </div>
                         </div>
+<<<<<<< HEAD
                         <div class="col-4 d-flex align-items-center justify-content-center">
+=======
+                        <div class="col d-flex align-items-center justify-content-center">
+>>>>>>> 50de7c78cd35169193fe34f743cfe1b87209a775
                             <div class="card border-0 bg-transparent">
-                                <img src="./images/headshots/EkinTiu.jpg"
-                                    class="card-img-top img-fluid d-block mx-auto rounded-circle" alt="...">
+                                <img src="./images/headshots/JulianAcosta.jpg"
+                                    class="card-img-top d-block mx-auto rounded-circle" alt="...">
                                 <div class="card-body text-center">
+<<<<<<< HEAD
                                     <p class="card-title">Name Surname</p>
                                     <!-- <p class="card-subtitle text-muted">Visiting Undergraduate -->
                                     </p>
@@ -246,131 +231,104 @@
 
                     <div class="row">
                         <div class="col-4 d-flex align-items-center justify-content-center">
-                            <div class="card border-0 bg-transparent">
-                                <img src="./images/headshots/EllieTalius.jpg"
-                                    class="card-img-top img-fluid d-block mx-auto rounded-circle" alt="...">
-                                <div class="card-body text-center">
-                                    <p class="card-title">Ellie Talius</p>
-                                    <!-- <p class="card-subtitle text-muted">Visiting Undergraduate -->
-                                    </p>
-
+=======
+                                    <p class="card-title">Julian Acosta</p>
+                                    <!-- <p class="card-subtitle text-muted">Visiting Undergraduate</p> -->
                                 </div>
                             </div>
                         </div>
-
-                        <div class="col-4 d-flex align-items-center justify-content-center">
+                        <div class="col d-flex align-items-center justify-content-center">
+>>>>>>> 50de7c78cd35169193fe34f743cfe1b87209a775
                             <div class="card border-0 bg-transparent">
-                                <img src="./images/headshots/PujanPatel.jpg"
-                                    class="card-img-top img-fluid d-block mx-auto rounded-circle" alt="...">
+                                <img src="./images/headshots/RyanHan.jpg"
+                                    class="card-img-top d-block mx-auto rounded-circle" alt="...">
                                 <div class="card-body text-center">
-                                    <p class="card-title">Pujan Patel</p>
-                                    <!-- <p class="card-subtitle text-muted">Visiting Undergraduate -->
-                                    </p>
-
+                                    <p class="card-title">Ryan Han</p>
+                                    <!-- <p class="card-subtitle text-muted">Visiting Undergraduate</p> -->
                                 </div>
                             </div>
                         </div>
+<<<<<<< HEAD
 
                         <div class="col-4 d-flex align-items-center justify-content-center">
+=======
+                        <div class="col d-flex align-items-center justify-content-center">
+>>>>>>> 50de7c78cd35169193fe34f743cfe1b87209a775
                             <div class="card border-0 bg-transparent">
-                                <img src="./images/headshots/placeholder.png"
-                                    class="card-img-top img-fluid d-block mx-auto rounded-circle" alt="...">
+                                <img src="./images/headshots/KathyrnWantlin.jpg"
+                                    class="card-img-top d-block mx-auto rounded-circle" alt="...">
                                 <div class="card-body text-center">
-                                    <p class="card-title">Join Us</p>
-                                    <!-- <p class="card-subtitle text-muted">We welcome you!</p> -->
+                                    <p class="card-title">Kathryn Wantlin</p>
+                                    <!-- <p class="card-subtitle text-muted">Visiting Undergraduate</p> -->
+                                </div>
+                            </div>
+                        </div>
+<<<<<<< HEAD
 
+                        <div class="col-4 d-flex align-items-center justify-content-center">
+=======
+                        <div class="col d-flex align-items-center justify-content-center">
+>>>>>>> 50de7c78cd35169193fe34f743cfe1b87209a775
+                            <div class="card border-0 bg-transparent">
+                                <img src="./images/headshots/ChenweiWu.jpg"
+                                    class="card-img-top d-block mx-auto rounded-circle" alt="...">
+                                <div class="card-body text-center">
+                                    <p class="card-title">Chenwei Wu</p>
+                                    <!-- <p class="card-subtitle text-muted">Visiting Undergraduate</p> -->
                                 </div>
                             </div>
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>
     </section>
-
-
-    <!-- Collaborators -->
-    <section id="collaborators">
-        <div class="container gradient-violet rounded-3 p-5">
-            <!-- header -->
-            <div class="row align-items-center justify-content-between text-center">
-                <div class="col-lg">
-                    <h1 class="ff-sans display-6 p-2">
-                        Collaborators
-                    </h1>
-                </div>
-            </div>
-            <!-- content -->
-            <div class="row">
-                <div class="col-md-3 offset-md-1">
-                    <img class="img-fluid d-block mx-auto" src="./svgs/collaboration-green.svg" alt="students">
-                </div>
-                <div class="col-md-7">
-                    <p class="text-muted">
-                        We cultivate collaborations with academic institutions, hospitals and industry. We are currently
-                        interested in collaborating to <b>deploy medical imaging AI models</b>. We are also partnering
-                        with hospitals
-                        and industry to create <b>large multi-institutional imaging datasets</b>. If you
-                        are interested in a possible collaboration with the Rajpurkar lab, please email
-                        <code>rajpurkarlab-apply</code> at <code>hms.harvard.edu</code>
-                        with the subject line <i> Possible Research Collaboration</i>.
-                    </p>
-
-                </div>
-            </div>
-        </div>
-    </section>
-
-
     <!-- sign up mailchimp -->
-    <section class="gradient-sign-up">
-        <div id="mc_embed_signup" class="container p-3">
-            <div class="row align-items-center justify-content-between text-center" style="color: white;">
-                <div class="col-lg">
-                    <h2 class="ff-sans display-6 mt-5">
-                        Stay informed of what we’re doing
-                    </h2>
+    <section class="">
+        <div id="mc_embed_signup" class="container py-3">
+            <div class="card mx-auto border-1 p-2">
+                <div class="row text-center mt-sm-4 p-sm-3 mt-md-0">
+                    <div class="col-lg">
+                        <h4 class="ff-sans display-4 my-3">
+                            Stay informed of what we’re doing
+                        </h4>
+                    </div>
+                    <form
+                        action="https://gmail.us5.list-manage.com/subscribe/post?u=557cb0dc8576a0294e638af4a&amp;id=55b81a021e"
+                        method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate"
+                        target="_blank" novalidate>
+                        <div id="mc_embed_signup_scroll" class="row mb-3">
+
+                            <div id="mce-responses" class="clear">
+                                <div class="response alert alert-danger w-50 mx-auto my-1" id="mce-error-response"
+                                    style="display:none">
+                                </div>
+                                <div class="response alert alert-success w-50 mx-auto my-1" id="mce-success-response"
+                                    style="display:none">
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-sm-10 col-md-8 col-lg-4 mx-auto pb-4">
+                                <!-- <label for="mce-EMAIL">Email Address </label> -->
+                                <input type="email" value="" name="EMAIL" class="required email form-control" id="mce-EMAIL"
+                                    placeholder="Email">
+                            </div>
+
+                            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text"
+                                    name="b_557cb0dc8576a0294e638af4a_55b81a021e" tabindex="-1" value=""></div>
+                            <div class="clear"><input type="submit" value="Subscribe" name="subscribe"
+                                    id="mc-embedded-subscribe" class="btn btn-outline-primary btn-lg">
+                            </div>
+                        </div>
+                    </form>
                 </div>
             </div>
-
-            <div class="row text-center mt-sm-4 p-sm-3 mt-md-0">
-                <form
-                    action="https://gmail.us5.list-manage.com/subscribe/post?u=557cb0dc8576a0294e638af4a&amp;id=55b81a021e"
-                    method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate"
-                    target="_blank" novalidate>
-                    <div id="mc_embed_signup_scroll" class="row mb-3">
-
-                        <div id="mce-responses" class="clear">
-                            <div class="response alert alert-danger w-50 mx-auto my-1" id="mce-error-response"
-                                style="display:none">
-                            </div>
-                            <div class="response alert alert-success w-50 mx-auto my-1" id="mce-success-response"
-                                style="display:none">
-                            </div>
-                        </div>
-
-                        <div class="col-12 col-sm-10 col-md-8 col-lg-4 mx-auto pb-4">
-                            <!-- <label for="mce-EMAIL">Email Address </label> -->
-                            <input type="email" value="" name="EMAIL" class="required email form-control" id="mce-EMAIL"
-                                placeholder="Email">
-                        </div>
-
-                        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text"
-                                name="b_557cb0dc8576a0294e638af4a_55b81a021e" tabindex="-1" value=""></div>
-                        <div class="clear"><input type="submit" value="Subscribe" name="subscribe"
-                                id="mc-embedded-subscribe" class="btn btn-outline-info btn-lg">
-                        </div>
-                    </div>
-                </form>
-            </div>
-
         </div>
     </section>
 
     <!-- Footer -->
-    <section class="p-1" style="background-color: black">
+    <section class="p-1" style="background-color: #333">
         <div class="container">
             <footer class="pt-3 d-flex align-item-center justify-content-between">
                 <p class="text-center" style="color: white">© Rajpurkar Lab</p>
