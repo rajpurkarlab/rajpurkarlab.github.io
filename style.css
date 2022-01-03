@@ -142,6 +142,11 @@ Variables
     box-shadow: var(--light-shadow);
   }
 
+  .square-img {
+    width: 128px;
+    height: 128px;
+  }
+
 
 
 
